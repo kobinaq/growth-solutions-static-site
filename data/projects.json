@@ -1,68 +1,266 @@
 [
   {
     "id": "project1",
-    "title": "Community Reforestation Initiative",
-    "focusArea": "Environmental Issues",
-    "location": "Northern Region, Ghana",
-    "dates": "2024–2025",
-    "challenge": "Deforestation and soil degradation were threatening local livelihoods in the community.",
-    "approach": "Worked with local residents to plant indigenous trees, set up nurseries, and introduce sustainable agroforestry practices. Provided training and tools to households and established community stewardship committees.",
+    "title": "Nationwide Assessment of the Ghana School Feeding Programme",
+    "focusArea": "Governance",
+    "location": "National, Ghana",
+    "dates": "2023–2024",
+    "challenge": "Government needed an evidence-based assessment of GSFP to unlock additional financing and improve programme delivery.",
+    "approach": "Led a World Bank–supported nationwide assessment covering 16 regions; engaged MMDA officials, head teachers, caterers, and beneficiary households; synthesized operational, financial, and nutrition data to produce recommendations for scale-up.",
     "outcomes": [
-      "Planted 20,000 seedlings across 50 hectares [placeholder]",
-      "Trained 300 households in sustainable agroforestry techniques [placeholder]",
-      "Increased soil fertility and reduced erosion [placeholder]"
+      "Assessment report produced with prioritized reform roadmap [placeholder]",
+      "Stakeholder validation across 5 macro-regions completed [placeholder]",
+      "Recommendations adopted for funding negotiations [placeholder]"
     ],
     "kpis": [
-      "20,000 trees planted [placeholder]",
-      "50 hectares restored [placeholder]",
-      "300 households trained [placeholder]"
+      "16 regions covered [placeholder]",
+      "200+ stakeholders consulted [placeholder]",
+      "1 national validation workshop held [placeholder]"
     ],
     "images": ["project1.png"],
-    "clientType": "Community + NGO Partnership",
-    "tags": ["reforestation", "agroforestry", "climate resilience"]
+    "clientType": "International Org (World Bank) + Public Sector",
+    "tags": ["school feeding", "public policy", "programme evaluation"]
   },
   {
     "id": "project2",
-    "title": "Renewable Energy Microgrid Project",
-    "focusArea": "Energy",
-    "location": "Volta Region, Ghana",
-    "dates": "2023–2024",
-    "challenge": "Remote communities lacked reliable access to electricity, limiting education and economic opportunities.",
-    "approach": "Designed and implemented a hybrid solar‑wind microgrid with battery storage, co‑funded by donors. Trained local technicians for maintenance and integrated energy‑efficient appliances in households.",
+    "title": "Boosting Green Employment and Enterprise Opportunities (GrEEn)",
+    "focusArea": "Livelihood",
+    "location": "Ashanti & Western Regions, Ghana",
+    "dates": "2021–2023",
+    "challenge": "Youth unemployment and limited green enterprise capacity constrained local livelihoods.",
+    "approach": "Served as Project Manager supporting SNV and UNCDF to coordinate MSME coaching, green jobs fairs, and municipality-level enterprise enablement with MLGRD and MELR.",
     "outcomes": [
-      "Installed 150 kW of renewable generation capacity [placeholder]",
-      "Connected 200 households and businesses to clean power [placeholder]",
-      "Reduced reliance on diesel generators by 80% [placeholder]"
+      "Coordinated delivery of enterprise coaching cohorts [placeholder]",
+      "Linked MSMEs to municipal opportunity pipelines [placeholder]",
+      "Improved local government support to green entrepreneurship [placeholder]"
     ],
     "kpis": [
-      "150 kW capacity installed [placeholder]",
-      "200 connections [placeholder]",
-      "80% reduction in diesel use [placeholder]"
+      "€20.6M programme supported (overall) [placeholder]",
+      "100+ MSMEs coached [placeholder]",
+      "250 green jobs facilitated [placeholder]"
     ],
     "images": ["project2.png"],
-    "clientType": "Donor‑Funded Pilot",
-    "tags": ["renewable energy", "microgrid", "capacity building"]
+    "clientType": "International Org (EU EUTF) + NGO",
+    "tags": ["green jobs", "MSME support", "youth employment"]
   },
   {
     "id": "project3",
-    "title": "Women's Entrepreneurship & Governance Programme",
-    "focusArea": "Gender",
-    "location": "Greater Accra, Ghana",
-    "dates": "2022–2023",
-    "challenge": "Women‑owned SMEs faced barriers in accessing finance and participating in local decision‑making.",
-    "approach": "Offered training in business planning, financial literacy, and advocacy. Facilitated mentorship networks and dialogue forums between women entrepreneurs and local authorities.",
+    "title": "National Clean Cooking Strategy Task Team",
+    "focusArea": "Energy",
+    "location": "National, Ghana",
+    "dates": "2021–2022",
+    "challenge": "High reliance on polluting fuels caused health and environmental burdens.",
+    "approach": "Served on national task team drafting a Clean Cooking Strategy; aligned targets with health, environment and gender outcomes; mapped financing and market enablers.",
     "outcomes": [
-      "Supported 100 women‑led businesses to develop growth plans [placeholder]",
-      "Facilitated 10 policy dialogues with local government [placeholder]",
-      "Increased revenue among participants by 18% [placeholder]"
+      "Draft national strategy framework prepared [placeholder]",
+      "Market barriers and enablers mapped [placeholder]",
+      "Stakeholder inputs consolidated for policy finalization [placeholder]"
     ],
     "kpis": [
-      "100 women entrepreneurs supported [placeholder]",
-      "10 policy dialogues held [placeholder]",
-      "18% revenue growth [placeholder]"
+      "1 national strategy drafted [placeholder]",
+      "30+ stakeholder institutions engaged [placeholder]",
+      "5-year implementation roadmap outlined [placeholder]"
     ],
     "images": ["project3.png"],
-    "clientType": "Public‑Private Partnership",
-    "tags": ["women's empowerment", "entrepreneurship", "governance"]
+    "clientType": "Public",
+    "tags": ["clean cooking", "policy", "energy access"]
+  },
+  {
+    "id": "project4",
+    "title": "SISTARS Organisational Development for Women in STEM Leadership",
+    "focusArea": "Gender",
+    "location": "Greater Accra, Ghana",
+    "dates": "2024–2025",
+    "challenge": "Institutional barriers limited women’s progression into leadership in STEM-focused organisations.",
+    "approach": "Facilitated OD plans for four organisations (GWCL, CBAS, UG-WRI, CONIWAS), focusing on governance, inclusive policies, and leadership pipelines.",
+    "outcomes": [
+      "4 OD plans co-created and approved [placeholder]",
+      "Leadership pipeline actions identified per institution [placeholder]",
+      "Baseline gender metrics defined for tracking [placeholder]"
+    ],
+    "kpis": [
+      "4 institutions supported [placeholder]",
+      "12+ OD workshops delivered [placeholder]",
+      "Gender policy updates drafted per institution [placeholder]"
+    ],
+    "images": ["project4.png"],
+    "clientType": "Public + NGO/Academic",
+    "tags": ["women in STEM", "organisational development", "leadership"]
+  },
+  {
+    "id": "project5",
+    "title": "NAFAG Governance Strengthening & Elections Support",
+    "focusArea": "Governance",
+    "location": "Coastal Ghana",
+    "dates": "2023–2024",
+    "challenge": "The National Fisheries Association required constitutional updates and credible governance processes.",
+    "approach": "Facilitated OD programme for NAFAG, drafted constitution updates, and led processes culminating in board elections.",
+    "outcomes": [
+      "Updated constitution validated by members [placeholder]",
+      "Transparent board elections conducted [placeholder]",
+      "Operational roles and SOPs clarified [placeholder]"
+    ],
+    "kpis": [
+      "1 national constitution updated [placeholder]",
+      "1 national election conducted [placeholder]",
+      "9+ governance sessions held [placeholder]"
+    ],
+    "images": ["project5.png"],
+    "clientType": "NGO",
+    "tags": ["fisheries", "associations", "governance"]
+  },
+  {
+    "id": "project6",
+    "title": "Sustainable Fisheries Management Project (SFMP) – Partner OD",
+    "focusArea": "Governance",
+    "location": "Western, Central & Greater Accra Regions, Ghana",
+    "dates": "2014–2017",
+    "challenge": "Partner CSOs needed stronger systems to influence fisheries governance and deliver programmes.",
+    "approach": "Led capacity assessments and OD for 9 partners; developed SOPs, strategic and advocacy plans; trained boards and staff.",
+    "outcomes": [
+      "9 partner assessments and OD plans completed [placeholder]",
+      "Board and staff trained in governance & leadership [placeholder]",
+      "Administrative, financial, and OD manuals delivered [placeholder]"
+    ],
+    "kpis": [
+      "9 organisations supported [placeholder]",
+      "3 governance manuals produced [placeholder]",
+      "30+ staff/board trained [placeholder]"
+    ],
+    "images": ["project6.png"],
+    "clientType": "International Org (USAID) + NGO",
+    "tags": ["fisheries", "capacity building", "policy influence"]
+  },
+  {
+    "id": "project7",
+    "title": "Anti-Child Labour & Trafficking Community Messaging",
+    "focusArea": "Gender",
+    "location": "Central Region, Ghana",
+    "dates": "2019",
+    "challenge": "Child labour and trafficking risks required tailored local messaging and duty-bearer coordination.",
+    "approach": "Facilitated development of anti-child labour and human trafficking messages with 10 District Assemblies; aligned with protection services.",
+    "outcomes": [
+      "10 district-specific messaging toolkits produced [placeholder]",
+      "Community sensitization plan outlined [placeholder]",
+      "Referral pathways clarified with social welfare units [placeholder]"
+    ],
+    "kpis": [
+      "10 districts covered [placeholder]",
+      "100+ officials oriented [placeholder]",
+      "5 core messages standardized [placeholder]"
+    ],
+    "images": ["project7.png"],
+    "clientType": "Public",
+    "tags": ["child protection", "GBV/trafficking prevention", "local government"]
+  },
+  {
+    "id": "project8",
+    "title": "Water & Sanitation Social Enterprise Setup",
+    "focusArea": "Environmental Issues",
+    "location": "Greater Accra Region, Ghana",
+    "dates": "2018–2019",
+    "challenge": "A deprived community lacked affordable, reliable water and sanitation services.",
+    "approach": "Supported the establishment of a social enterprise to provide community water points and sanitation services; created jobs and service protocols.",
+    "outcomes": [
+      "Enterprise operationalized with basic service menu [placeholder]",
+      "Local employment created for youth and women [placeholder]",
+      "Community WASH service coverage increased [placeholder]"
+    ],
+    "kpis": [
+      "3 water points commissioned [placeholder]",
+      "10+ jobs created [placeholder]",
+      "500+ residents served monthly [placeholder]"
+    ],
+    "images": ["project8.png"],
+    "clientType": "Community + Social Enterprise",
+    "tags": ["WASH", "social enterprise", "service delivery"]
+  },
+  {
+    "id": "project9",
+    "title": "Integrated School Project on Clean Cookstoves & Fuels",
+    "focusArea": "Energy",
+    "location": "Selected Districts, Ghana",
+    "dates": "2013–2015",
+    "challenge": "Schools relied on inefficient cooking practices, impacting health and budgets.",
+    "approach": "Supported World Education International and the Global Alliance for Clean Cookstoves; co-developed a clean cooking manual for GES curriculum integration.",
+    "outcomes": [
+      "Clean cooking curriculum materials drafted [placeholder]",
+      "Teacher orientation sessions conducted [placeholder]",
+      "School pilots demonstrated fuel savings [placeholder]"
+    ],
+    "kpis": [
+      "1 GES-aligned manual produced [placeholder]",
+      "20 pilot schools engaged [placeholder]",
+      "15% fuel cost reduction observed [placeholder]"
+    ],
+    "images": ["project9.png"],
+    "clientType": "International Org (UN Foundation) + NGO",
+    "tags": ["education", "clean cooking", "schools"]
+  },
+  {
+    "id": "project10",
+    "title": "Green Economy Strategy Manual & MMDA Training",
+    "focusArea": "Environmental Issues",
+    "location": "National, Ghana",
+    "dates": "2013–2015",
+    "challenge": "MMDAs needed practical guidance to mainstream green economy principles in Medium-Term Development Plans.",
+    "approach": "Co-developed national strategy manual and handbook; trained district planners to integrate green economy into MTDPs.",
+    "outcomes": [
+      "National manual and trainer handbook delivered [placeholder]",
+      "District planning templates updated [placeholder]",
+      "Peer-learning workshops conducted [placeholder]"
+    ],
+    "kpis": [
+      "40+ MMDA planners trained [placeholder]",
+      "2 guidance documents published [placeholder]",
+      "5 case examples compiled [placeholder]"
+    ],
+    "images": ["project10.png"],
+    "clientType": "International Org (UNDP) + Public",
+    "tags": ["green economy", "planning", "capacity building"]
+  },
+  {
+    "id": "project11",
+    "title": "SPEFA – Social Public Expenditure & Financial Accountability",
+    "focusArea": "Governance",
+    "location": "46 MMAs, Ghana",
+    "dates": "2013–2017",
+    "challenge": "Limited citizen oversight and understanding of public financial management processes.",
+    "approach": "Managed nationwide social accountability project with 30 CSOs; trained stakeholders and organised town halls to engage duty bearers.",
+    "outcomes": [
+      "PFM literacy improved among citizen groups [placeholder]",
+      "Regular town halls institutionalized in MMAs [placeholder]",
+      "CSO networks strengthened for oversight [placeholder]"
+    ],
+    "kpis": [
+      "46 MMAs engaged [placeholder]",
+      "30 CSOs coordinated [placeholder]",
+      "100+ town halls facilitated [placeholder]"
+    ],
+    "images": ["project11.png"],
+    "clientType": "International Org (World Bank) + Public",
+    "tags": ["PFM", "social accountability", "civic engagement"]
+  },
+  {
+    "id": "project12",
+    "title": "National Climate Change Adaptation & DRR Mainstreaming",
+    "focusArea": "Environmental Issues",
+    "location": "National, Ghana",
+    "dates": "2010–2012",
+    "challenge": "Climate risks were not consistently integrated into national and district plans.",
+    "approach": "Contributed to Ghana’s National Climate Change Adaptation Strategy and co-facilitated training for 10 pilot districts on mainstreaming Climate Change and Disaster Risk Reduction.",
+    "outcomes": [
+      "Adaptation strategy inputs delivered [placeholder]",
+      "10 pilots integrated CC/DRR in plans [placeholder]",
+      "Policy briefs on climate for Ghana produced [placeholder]"
+    ],
+    "kpis": [
+      "10 pilot districts trained [placeholder]",
+      "3 policy briefs completed [placeholder]",
+      "1 national adaptation document supported [placeholder]"
+    ],
+    "images": ["project12.png"],
+    "clientType": "Public + International Org (UNDP, NDPC, EPA)",
+    "tags": ["climate adaptation", "DRR", "policy"]
   }
 ]
