@@ -1,3 +1,16 @@
+TL;DR: I made the hero eyebrow + headline white, and the “Explore our services” button white (outlined) for strong contrast. Priority area images now reference priority1.png … priority5.png at the site root.
+
+Plan (pseudocode)
+
+Override hero text color to white: eyebrow, H1, lead.
+
+In-hero tertiary button → white text + white outline + subtle white hover fill.
+
+Keep primary CTA as-is.
+
+Update area cards’ background images to priority1..5.png.
+
+<!-- /index.html -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -23,7 +36,7 @@
     <div id="site-header"></div>
 
     <main id="main-content">
-      <!-- HERO (CARE-inspired: bold, left-aligned storytelling) -->
+      <!-- HERO -->
       <section class="hero hero--left">
         <img class="hero-media" src="/hero.png" alt="Community members collaborating on sustainable development" />
         <div class="container">
@@ -47,7 +60,7 @@
         </div>
       </section>
 
-      <!-- IMPACT BAND (CARE-like KPIs) -->
+      <!-- IMPACT BAND -->
       <section class="section impact-wrap">
         <div class="container">
           <div class="impact-band" role="list">
@@ -71,7 +84,7 @@
         </div>
       </section>
 
-      <!-- PRIORITY AREAS (image-led, overlay) -->
+      <!-- PRIORITY AREAS -->
       <section class="section">
         <div class="container">
           <div class="section-header center">
@@ -79,23 +92,23 @@
             <p class="section-sub">Where we focus to create the most impact.</p>
           </div>
           <div class="area-grid">
-            <a class="area-card" href="/projects.html?area=environmental" style="--bg:url('/project1.png')">
+            <a class="area-card" href="/projects.html?area=environmental" style="--bg:url('/priority1.png')">
               <span class="area-eyebrow">Environmental</span>
               <h3>Protect ecosystems</h3>
             </a>
-            <a class="area-card" href="/projects.html?area=energy" style="--bg:url('/project2.png')">
+            <a class="area-card" href="/projects.html?area=energy" style="--bg:url('/priority2.png')">
               <span class="area-eyebrow">Energy</span>
               <h3>Power communities</h3>
             </a>
-            <a class="area-card" href="/projects.html?area=livelihood" style="--bg:url('/project3.png')">
+            <a class="area-card" href="/projects.html?area=livelihood" style="--bg:url('/priority3.png')">
               <span class="area-eyebrow">Livelihood</span>
               <h3>Grow resilience</h3>
             </a>
-            <a class="area-card" href="/projects.html?area=gender" style="--bg:url('/project4.png')">
+            <a class="area-card" href="/projects.html?area=gender" style="--bg:url('/priority4.png')">
               <span class="area-eyebrow">Gender</span>
               <h3>Advance equality</h3>
             </a>
-            <a class="area-card" href="/projects.html?area=governance" style="--bg:url('/project5.png')">
+            <a class="area-card" href="/projects.html?area=governance" style="--bg:url('/priority5.png')">
               <span class="area-eyebrow">Governance</span>
               <h3>Strengthen systems</h3>
             </a>
@@ -103,7 +116,7 @@
         </div>
       </section>
 
-      <!-- FEATURED STORY / PROJECT -->
+      <!-- FEATURED STORY -->
       <section class="section">
         <div class="container">
           <div class="story-split">
@@ -120,7 +133,7 @@
         </div>
       </section>
 
-      <!-- LATEST RESOURCES (populated by main.js) -->
+      <!-- LATEST RESOURCES -->
       <section class="section">
         <div class="container">
           <div class="section-header center">
