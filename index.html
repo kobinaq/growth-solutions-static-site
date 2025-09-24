@@ -1,194 +1,174 @@
+<!-- /index.html -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Growth Solutions – Community‑led solutions for sustainable development</title>
-    <meta name="description" content="Growth Solutions co‑creates environmentally sound, socially inclusive and economically empowering initiatives across Ghana's communities." />
-    <meta property="og:title" content="Growth Solutions – Community‑led solutions for sustainable development" />
-    <meta property="og:description" content="We work with Ghanaian communities on environmental issues, energy, livelihoods, gender and governance to drive sustainable impact." />
-    <meta property="og:image" content="/assets/img/hero.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Growth Solutions — Community-led solutions for sustainable development</title>
+    <meta name="description" content="We co-create environmentally sound, socially inclusive, and economically empowering initiatives with communities across Ghana." />
+    <meta property="og:title" content="Growth Solutions — Community-led solutions for sustainable development" />
+    <meta property="og:description" content="Environmental issues, energy, livelihood, gender, and governance — built with communities for lasting impact." />
     <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#E4701E" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1B1B1B" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="/assets/css/styles.css" />
-    <!-- JSON-LD for Organisation -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Growth Solutions",
-        "url": "",
-        "logo": "",
-        "sameAs": [
-          "https://www.linkedin.com/company/growth-solutions-ghana",
-          "https://twitter.com/growthsolutionsgh"
-        ]
-      }
-    </script>
+    <!-- Editorial pairing: Inter + Source Serif Pro for hero headlines -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+Pro:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
   </head>
   <body data-page="home">
+    <!-- Header & footer are injected by your main.js from /header.html & /footer.html -->
     <div id="site-header"></div>
+
     <main id="main-content">
-      <!-- Hero Section -->
-      <section class="hero">
-        <img src="/assets/img/hero.png" alt="Abstract illustration symbolising community development and renewable energy" />
-        <div class="hero-content">
-          <h1>Community‑led solutions for sustainable development.</h1>
-          <p class="hero-subhead">We co‑create with local communities, unlocking environmentally sound, socially inclined and economically empowering initiatives.</p>
+      <!-- HERO -->
+      <section class="hero hero--care">
+        <div class="container hero__inner">
+          <div class="hero__content">
+            <p class="eyebrow">Community • Dignity • Impact</p>
+            <h1 class="hero__title balance">People-powered solutions for a fairer, greener future.</h1>
+            <p class="hero__subtitle">We partner with local communities to unlock opportunities in environment, energy, livelihoods, gender and governance.</p>
+            <div class="cta-buttons">
+              <a href="/about.html#contact" class="btn btn--primary">Donate</a>
+              <a href="/services.html" class="btn btn--ghost">Explore our services</a>
+            </div>
+          </div>
+        </div>
+        <!-- abstract accent shapes (no image dependency) -->
+        <div class="hero__shapes" aria-hidden="true"></div>
+      </section>
+
+      <!-- IMPACT STATS -->
+      <section class="band band--impact" aria-label="Impact highlights">
+        <div class="container impact">
+          <div class="impact__item">
+            <div class="impact__num">200+</div>
+            <div class="impact__label">communities engaged</div>
+          </div>
+          <div class="impact__sep" aria-hidden="true"></div>
+          <div class="impact__item">
+            <div class="impact__num">1.4K</div>
+            <div class="impact__label">local participants</div>
+          </div>
+          <div class="impact__sep" aria-hidden="true"></div>
+          <div class="impact__item">
+            <div class="impact__num">16</div>
+            <div class="impact__label">regions across Ghana</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GUIDING PRINCIPLES -->
+      <section class="section">
+        <div class="container">
+          <div class="section-header center">
+            <h2 class="balance">Our guiding principles</h2>
+          </div>
+          <div class="grid auto-cards">
+            <article class="card">
+              <div class="card-content">
+                <span class="card-eyebrow">Transparency</span>
+                <h3 class="card-title">Openness builds trust</h3>
+                <p class="card-excerpt">Clear communication and shared learning at every step with partners and communities.</p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-content">
+                <span class="card-eyebrow">Community-first</span>
+                <h3 class="card-title">Design with, not for</h3>
+                <p class="card-excerpt">Local knowledge leads our decisions for relevant, lasting outcomes.</p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-content">
+                <span class="card-eyebrow">Entrepreneurship</span>
+                <h3 class="card-title">Ideas into action</h3>
+                <p class="card-excerpt">Practical innovation that turns constraints into opportunities.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOCUS AREAS -->
+      <section class="section section--tiles">
+        <div class="container">
+          <div class="section-header center">
+            <h2 class="balance">Focus areas</h2>
+          </div>
+          <div class="tiles">
+            <a class="tile" href="/projects.html?area=environmental">
+              <h3>Environmental issues</h3><p>Protect ecosystems & restore biodiversity.</p>
+            </a>
+            <a class="tile" href="/projects.html?area=energy">
+              <h3>Energy</h3><p>Accelerate renewable and efficient energy.</p>
+            </a>
+            <a class="tile" href="/projects.html?area=livelihood">
+              <h3>Livelihood</h3><p>Build resilient local economies.</p>
+            </a>
+            <a class="tile" href="/projects.html?area=gender">
+              <h3>Gender</h3><p>Advance equality for women and girls.</p>
+            </a>
+            <a class="tile" href="/projects.html?area=governance">
+              <h3>Governance</h3><p>Strengthen participation & accountability.</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURED STORY -->
+      <section class="section">
+        <div class="container">
+          <div class="section-header center">
+            <h2 class="balance">Featured project</h2>
+          </div>
+          <article class="feature card">
+            <div class="feature__media" role="img" aria-label="Illustration of a community initiative"></div>
+            <div class="card-content">
+              <span class="card-eyebrow">Governance</span>
+              <h3 class="card-title">Ghana School Feeding Programme — Nationwide assessment</h3>
+              <p class="card-excerpt">A World Bank–supported review covering 16 regions, engaging MMDAs, head teachers, caterers and households to inform scale-up.</p>
+              <a class="text-button" href="/projects.html?area=governance">See more projects</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- LATEST RESOURCES (auto-populated) -->
+      <section class="section">
+        <div class="container">
+          <div class="section-header center">
+            <h2 class="balance">Latest resources</h2>
+          </div>
+          <div id="latest-resources" class="grid auto-cards"></div>
+        </div>
+      </section>
+
+      <!-- TRUST / STATEMENT -->
+      <section class="section section--trust">
+        <div class="container center-text">
+          <p id="trust-text" class="trust-text"></p>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta-band">
+        <div class="container center-text">
+          <h2 class="balance">Your support powers community-led change.</h2>
           <div class="cta-buttons">
-            <a href="/about.html#contact" class="button primary">Request a consultation</a>
-            <a href="/services.html" class="button secondary">Explore our services</a>
+            <a href="/about.html#contact" class="btn btn--primary">Donate</a>
+            <a href="/about.html#contact" class="btn btn--ghost on-dark">Partner with us</a>
           </div>
-        </div>
-      </section>
-      <!-- Trust Row -->
-      <section class="trust-row container" style="text-align:center; margin-top: var(--space-6);">
-        <p id="trust-text" style="font-weight:600;"></p>
-      </section>
-      <!-- Value Cards -->
-      <section class="container" style="margin-top: var(--space-8);">
-        <div class="section-header" style="text-align:center; margin-bottom: var(--space-6);">
-          <h2>Our Guiding Principles</h2>
-        </div>
-        <div class="value-cards">
-          <article class="card value-card">
-            <div class="card-content">
-              <div class="step-icon" aria-hidden="true">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm5 11H7v-2h10v2z"/></svg>
-              </div>
-              <h3 class="card-title">Transparency &amp; Openness</h3>
-              <p class="card-excerpt">We operate with clarity and honesty, keeping partners and communities informed at every step.</p>
-            </div>
-          </article>
-          <article class="card value-card">
-            <div class="card-content">
-              <div class="step-icon" aria-hidden="true">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 22l-8-4V6l8 4 8-4v12l-8 4zM12 4L4 0l8 4 8-4-8 4z"/></svg>
-              </div>
-              <h3 class="card-title">Community‑First</h3>
-              <p class="card-excerpt">Local knowledge and participation guide our projects to ensure relevance and lasting impact.</p>
-            </div>
-          </article>
-          <article class="card value-card">
-            <div class="card-content">
-              <div class="step-icon" aria-hidden="true">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l4 8h-8l4-8zm0 20l4-8h-8l4 8z"/></svg>
-              </div>
-              <h3 class="card-title">Entrepreneurial Mindset</h3>
-              <p class="card-excerpt">We embrace innovation and adaptability to unlock economic opportunities alongside communities.</p>
-            </div>
-          </article>
-        </div>
-      </section>
-      <!-- Our Process -->
-      <section class="container" style="margin-top: var(--space-8);">
-        <div class="section-header" style="text-align:center; margin-bottom: var(--space-6);">
-          <h2>Our Process</h2>
-        </div>
-        <div class="process-steps">
-          <div class="process-step">
-            <div class="step-icon" aria-hidden="true"><strong>1</strong></div>
-            <h3>Discover</h3>
-            <p>We listen and learn to understand community challenges and aspirations.</p>
-          </div>
-          <div class="process-step">
-            <div class="step-icon" aria-hidden="true"><strong>2</strong></div>
-            <h3>Co‑Design</h3>
-            <p>Solutions are crafted together with stakeholders for maximum relevance.</p>
-          </div>
-          <div class="process-step">
-            <div class="step-icon" aria-hidden="true"><strong>3</strong></div>
-            <h3>Implement</h3>
-            <p>We mobilise resources and expertise to turn plans into action.</p>
-          </div>
-          <div class="process-step">
-            <div class="step-icon" aria-hidden="true"><strong>4</strong></div>
-            <h3>Evaluate &amp; Scale</h3>
-            <p>Continuous learning informs improvement and expansion of proven models.</p>
-          </div>
-        </div>
-      </section>
-      <!-- Focus Areas -->
-      <section class="container" style="margin-top: var(--space-8);">
-        <div class="section-header" style="text-align:center; margin-bottom: var(--space-6);">
-          <h2>Focus Areas</h2>
-        </div>
-        <div class="focus-grid">
-          <a href="/projects.html?area=environmental" class="card focus-card" style="background-color: var(--gs-green-200); padding: var(--space-4); text-align:center;">
-            <h3>Environmental Issues</h3>
-            <p>Protecting ecosystems &amp; restoring biodiversity.</p>
-          </a>
-          <a href="/projects.html?area=energy" class="card focus-card" style="background-color: var(--gs-green-200); padding: var(--space-4); text-align:center;">
-            <h3>Energy</h3>
-            <p>Accelerating renewable and efficient energy.</p>
-          </a>
-          <a href="/projects.html?area=livelihood" class="card focus-card" style="background-color: var(--gs-green-200); padding: var(--space-4); text-align:center;">
-            <h3>Livelihood</h3>
-            <p>Building resilient livelihoods &amp; local economies.</p>
-          </a>
-          <a href="/projects.html?area=gender" class="card focus-card" style="background-color: var(--gs-green-200); padding: var(--space-4); text-align:center;">
-            <h3>Gender</h3>
-            <p>Empowering women &amp; promoting equality.</p>
-          </a>
-          <a href="/projects.html?area=governance" class="card focus-card" style="background-color: var(--gs-green-200); padding: var(--space-4); text-align:center;">
-            <h3>Governance</h3>
-            <p>Strengthening transparency &amp; participation.</p>
-          </a>
-        </div>
-      </section>
-      <!-- Featured Project -->
-      <section class="container" style="margin-top: var(--space-8);">
-        <div class="section-header" style="text-align:center; margin-bottom: var(--space-6);">
-          <h2>Featured Project</h2>
-        </div>
-        <article class="card" style="display:flex; flex-direction:column; text-align:left;">
-          <div class="card-image"><img src="/assets/img/project1.png" alt="Tree planting in Ghana project illustration" loading="lazy" /></div>
-          <div class="card-content">
-            <span class="card-eyebrow">Governance</span>
-            <h3 class="card-title">Nationwide Assessment of the Ghana School Feeding Programmee</h3>
-            <p class="card-excerpt">Led a World Bank–supported nationwide assessment covering 16 regions; engaged MMDA officials, head teachers, caterers, and beneficiary households; synthesized operational, financial, and nutrition data to produce recommendations for scale-up.</p>
-            <a href="/projects.html?area=environmental" class="text-button">View projects</a>
-          </div>
-        </article>
-      </section>
-      <!-- Latest Resources -->
-      <section class="container" style="margin-top: var(--space-8);">
-        <div class="section-header" style="text-align:center; margin-bottom: var(--space-6);">
-          <h2>Latest Resources</h2>
-        </div>
-        <div id="latest-resources" class="grid" style="display:grid; gap: var(--space-4); grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));"></div>
-      </section>
-      <!-- Team Teaser -->
-      <section class="container" style="margin-top: var(--space-8); text-align:center;">
-        <div class="section-header" style="margin-bottom: var(--space-6);">
-          <h2>Our Team</h2>
-        </div>
-        <article class="team-card" style="margin-bottom: var(--space-6);">
-          <img src="/assets/img/team-sarah.png" alt="Portrait of Sarah Naa Dedei Agbey" loading="lazy" />
-          <div class="team-info">
-            <h3>Sarah Naa Dedei Agbey</h3>
-            <p class="team-role">Development Planner &amp; Good Governance Expert</p>
-            <p>With over two decades of experience, Sarah leads our mission to embed transparency, inclusion and sustainability into every project.</p>
-            <a href="/about.html#team" class="text-button">Learn more about Sarah</a>
-          </div>
-        </article>
-      </section>
-      <!-- Bottom CTA Band -->
-      <section class="cta-band" style="background-color: var(--color-primary); color: var(--gs-ivory); padding: var(--space-6) 0; text-align:center; margin-top: var(--space-8);">
-        <h2 style="margin-bottom: var(--space-4);">Ready to collaborate?</h2>
-        <div class="cta-buttons" style="justify-content:center;">
-          <a href="/about.html#contact" class="button primary">Partner with us</a>
-          <a href="/about.html#contact" class="button secondary" style="border-color: var(--gs-ivory); color: var(--gs-ivory);">Contact us</a>
         </div>
       </section>
     </main>
+
     <div id="site-footer"></div>
-    <script type="module" src="/assets/js/dataLoader.js"></script>
-    <script type="module" src="/assets/js/router.js"></script>
-    <script type="module" src="/assets/js/main.js"></script>
+
+    <script type="module" src="/dataLoader.js"></script>
+    <script type="module" src="/router.js"></script>
+    <script type="module" src="/main.js"></script>
   </body>
 </html>
