@@ -3,35 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Projects – Growth Solutions</title>
     <meta name="description" content="Explore Growth Solutions’ projects across environmental issues, energy, livelihood, gender and governance focus areas." />
     <meta property="og:title" content="Projects – Growth Solutions" />
     <meta property="og:description" content="Discover our case studies and how we partner with communities to deliver sustainable impact." />
-    <meta property="og:image" content="/assets/img/project1.png" />
+    <meta property="og:image" content="/project1.png" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#056f39" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0b3d24" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="/styles.css" />
   </head>
   <body data-page="projects">
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <div id="site-header"></div>
-    <main id="main-content" class="container" style="padding-top: var(--space-8);">
-      <h1>Projects</h1>
+    <main id="main-content" class="container section">
+      <h1 class="balance">Projects</h1>
       <p>Our projects span environmental issues, energy, livelihoods, gender and governance. Use the filters below to explore case studies relevant to your interests.</p>
-      <!-- Filters -->
       <div class="search-wrapper">
         <input id="project-search" type="search" placeholder="Search projects" aria-label="Search projects by title or tag" />
       </div>
-      <div id="project-chips" style="margin-bottom: var(--space-4);"></div>
-      <!-- Projects Grid -->
-      <div id="project-cards" style="display:grid; gap: var(--space-4); grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));"></div>
+      <div id="project-chips" class="stack-sm"></div>
+      <div id="project-cards" class="grid auto-cards"></div>
     </main>
     <div id="site-footer"></div>
-    <script type="module" src="/assets/js/dataLoader.js"></script>
-    <script type="module" src="/assets/js/router.js"></script>
-    <script type="module" src="/assets/js/main.js"></script>
+    <script type="module" src="/dataLoader.js"></script>
+    <script type="module" src="/router.js"></script>
+    <script type="module" src="/main.js"></script>
   </body>
 </html>
