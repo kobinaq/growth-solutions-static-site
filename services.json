@@ -1,0 +1,26 @@
+[
+  {
+    "id": "service1",
+    "title": "Community Needs Assessment & Planning",
+    "summary": "We work alongside communities to identify needs, set priorities and design sustainable development plans that integrate environmental stewardship, gender equality and economic empowerment.",
+    "focusAreas": ["Environmental Issues", "Livelihood", "Gender"],
+    "capabilities": ["Participatory needs assessment", "Strategic planning", "Stakeholder engagement"],
+    "downloads": []
+  },
+  {
+    "id": "service2",
+    "title": "Renewable Energy Solutions",
+    "summary": "From feasibility studies to installation and maintenance, we deliver renewable energy systems that power communities and businesses while reducing carbon footprints.",
+    "focusAreas": ["Energy"],
+    "capabilities": ["Feasibility studies", "System design", "Capacity building"],
+    "downloads": []
+  },
+  {
+    "id": "service3",
+    "title": "Governance & Organizational Development",
+    "summary": "We strengthen governance structures and organizational effectiveness through policy analysis, training and monitoring and evaluation.",
+    "focusAreas": ["Governance"],
+    "capabilities": ["Policy analysis", "Training & facilitation", "Monitoring & evaluation"],
+    "downloads": []
+  }
+]
