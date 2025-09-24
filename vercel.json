@@ -1,0 +1,21 @@
+{
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/404",
+      "destination": "/404.html",
+      "permanent": false
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, s-maxage=3600"
+        }
+      ]
+    }
+  ]
+}

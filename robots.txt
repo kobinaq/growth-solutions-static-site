@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Point search engines to the sitemap for better indexing
+Sitemap: /sitemap.xml

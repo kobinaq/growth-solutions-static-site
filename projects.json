@@ -1,0 +1,68 @@
+[
+  {
+    "id": "project1",
+    "title": "Community Reforestation Initiative",
+    "focusArea": "Environmental Issues",
+    "location": "Northern Region, Ghana",
+    "dates": "2024–2025",
+    "challenge": "Deforestation and soil degradation were threatening local livelihoods in the community.",
+    "approach": "Worked with local residents to plant indigenous trees, set up nurseries, and introduce sustainable agroforestry practices. Provided training and tools to households and established community stewardship committees.",
+    "outcomes": [
+      "Planted 20,000 seedlings across 50 hectares [placeholder]",
+      "Trained 300 households in sustainable agroforestry techniques [placeholder]",
+      "Increased soil fertility and reduced erosion [placeholder]"
+    ],
+    "kpis": [
+      "20,000 trees planted [placeholder]",
+      "50 hectares restored [placeholder]",
+      "300 households trained [placeholder]"
+    ],
+    "images": ["project1.png"],
+    "clientType": "Community + NGO Partnership",
+    "tags": ["reforestation", "agroforestry", "climate resilience"]
+  },
+  {
+    "id": "project2",
+    "title": "Renewable Energy Microgrid Project",
+    "focusArea": "Energy",
+    "location": "Volta Region, Ghana",
+    "dates": "2023–2024",
+    "challenge": "Remote communities lacked reliable access to electricity, limiting education and economic opportunities.",
+    "approach": "Designed and implemented a hybrid solar‑wind microgrid with battery storage, co‑funded by donors. Trained local technicians for maintenance and integrated energy‑efficient appliances in households.",
+    "outcomes": [
+      "Installed 150 kW of renewable generation capacity [placeholder]",
+      "Connected 200 households and businesses to clean power [placeholder]",
+      "Reduced reliance on diesel generators by 80% [placeholder]"
+    ],
+    "kpis": [
+      "150 kW capacity installed [placeholder]",
+      "200 connections [placeholder]",
+      "80% reduction in diesel use [placeholder]"
+    ],
+    "images": ["project2.png"],
+    "clientType": "Donor‑Funded Pilot",
+    "tags": ["renewable energy", "microgrid", "capacity building"]
+  },
+  {
+    "id": "project3",
+    "title": "Women's Entrepreneurship & Governance Programme",
+    "focusArea": "Gender",
+    "location": "Greater Accra, Ghana",
+    "dates": "2022–2023",
+    "challenge": "Women‑owned SMEs faced barriers in accessing finance and participating in local decision‑making.",
+    "approach": "Offered training in business planning, financial literacy, and advocacy. Facilitated mentorship networks and dialogue forums between women entrepreneurs and local authorities.",
+    "outcomes": [
+      "Supported 100 women‑led businesses to develop growth plans [placeholder]",
+      "Facilitated 10 policy dialogues with local government [placeholder]",
+      "Increased revenue among participants by 18% [placeholder]"
+    ],
+    "kpis": [
+      "100 women entrepreneurs supported [placeholder]",
+      "10 policy dialogues held [placeholder]",
+      "18% revenue growth [placeholder]"
+    ],
+    "images": ["project3.png"],
+    "clientType": "Public‑Private Partnership",
+    "tags": ["women's empowerment", "entrepreneurship", "governance"]
+  }
+]

@@ -1,0 +1,19 @@
+<!-- EDIT: Header structure. The nav items and labels are rendered dynamically from site.json via main.js -->
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header" role="banner">
+  <div class="container header-inner">
+    <a href="/index.html" class="logo" aria-label="Growth Solutions home">Growth&nbsp;Solutions</a>
+    <button class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+      <span class="sr-only">Toggle navigation</span>
+      <!-- Simple burger icon as inline SVG -->
+      <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <rect y="4" width="24" height="2" rx="1" fill="currentColor"></rect>
+        <rect y="11" width="24" height="2" rx="1" fill="currentColor"></rect>
+        <rect y="18" width="24" height="2" rx="1" fill="currentColor"></rect>
+      </svg>
+    </button>
+    <nav id="primary-navigation" class="primary-nav" aria-label="Primary navigation">
+      <!-- Navigation items will be injected here by JavaScript -->
+    </nav>
+  </div>
+</header>
