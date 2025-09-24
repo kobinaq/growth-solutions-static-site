@@ -3,36 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Resources – Growth Solutions</title>
-    <meta name="description" content="Browse our blogs, reports, manuals and events to learn more about community‑driven development in Ghana." />
+    <meta name="description" content="Browse our blogs, reports, manuals and events to learn more about community-driven development in Ghana." />
     <meta property="og:title" content="Resources – Growth Solutions" />
     <meta property="og:description" content="Our resource library includes articles, reports, manuals and upcoming events to help you stay informed." />
-    <meta property="og:image" content="/assets/img/resource1.png" />
+    <meta property="og:image" content="/resource1.png" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#056f39" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0b3d24" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="/styles.css" />
   </head>
   <body data-page="resources">
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <div id="site-header"></div>
-    <main id="main-content" class="container" style="padding-top: var(--space-8);">
-      <h1>Resources</h1>
+    <main id="main-content" class="container section">
+      <h1 class="balance">Resources</h1>
       <p>Find insights, lessons and training materials drawn from our work across Ghana. Filter by type or search by keyword.</p>
-      <!-- Search -->
       <div class="search-wrapper">
         <input id="resource-search" type="search" placeholder="Search resources" aria-label="Search resources by title or tag" />
       </div>
-      <!-- Type chips -->
-      <div id="resource-type-chips" style="margin-bottom: var(--space-4);"></div>
-      <!-- Resource cards -->
-      <div id="resource-cards" style="display:grid; gap: var(--space-4); grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));"></div>
+      <div id="resource-type-chips" class="stack-sm"></div>
+      <div id="resource-cards" class="grid auto-cards"></div>
     </main>
     <div id="site-footer"></div>
-    <script type="module" src="/assets/js/dataLoader.js"></script>
-    <script type="module" src="/assets/js/router.js"></script>
-    <script type="module" src="/assets/js/main.js"></script>
+    <script type="module" src="/dataLoader.js"></script>
+    <script type="module" src="/router.js"></script>
+    <script type="module" src="/main.js"></script>
   </body>
 </html>
