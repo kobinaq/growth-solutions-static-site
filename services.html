@@ -3,40 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Services – Growth Solutions</title>
     <meta name="description" content="Learn about our capabilities and services aligned to environmental issues, energy, livelihood, gender and governance." />
     <meta property="og:title" content="Services – Growth Solutions" />
     <meta property="og:description" content="Discover how Growth Solutions can support your organisation or community through needs assessments, renewable energy solutions and governance expertise." />
-    <meta property="og:image" content="/assets/img/hero.png" />
+    <meta property="og:image" content="/hero.png" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#056f39" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0b3d24" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="/styles.css" />
   </head>
   <body data-page="services">
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <div id="site-header"></div>
     <main id="main-content">
-      <!-- Hero section for services -->
-      <section class="container" style="padding-top: var(--space-8); text-align:center;">
-        <h1>Our Services</h1>
-        <p>We offer a suite of services designed to help communities and partners achieve sustainable development outcomes. Explore our capabilities below.</p>
+      <section class="section center-text">
+        <div class="container">
+          <h1 class="balance">Our Services</h1>
+          <p>We offer a suite of services designed to help communities and partners achieve sustainable development outcomes. Explore our capabilities below.</p>
+        </div>
       </section>
-      <!-- Services grouped by focus area -->
-      <section class="container" style="margin-top: var(--space-6);">
-        <div id="services-container"></div>
+      <section class="section">
+        <div class="container" id="services-container"></div>
       </section>
-      <!-- Mid‑page CTA -->
-      <section class="cta-band" style="background-color: var(--color-primary); color: var(--gs-ivory); padding: var(--space-6) 0; text-align:center; margin-top: var(--space-8);">
-        <h2 style="margin-bottom: var(--space-4);">Let’s plan your next project together</h2>
-        <a href="/about.html#contact" class="button primary">Request a consultation</a>
+      <section class="section cta-band">
+        <div class="container center-text">
+          <h2 class="balance">Let’s plan your next project together</h2>
+          <a href="/about.html#contact" class="button primary">Request a consultation</a>
+        </div>
       </section>
     </main>
     <div id="site-footer"></div>
-    <script type="module" src="/assets/js/dataLoader.js"></script>
-    <script type="module" src="/assets/js/router.js"></script>
-    <script type="module" src="/assets/js/main.js"></script>
+    <script type="module" src="/dataLoader.js"></script>
+    <script type="module" src="/router.js"></script>
+    <script type="module" src="/main.js"></script>
   </body>
 </html>
